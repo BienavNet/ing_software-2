@@ -1,0 +1,88 @@
+{
+  "pages": [
+
+    {
+      "page": "",
+      "tier": "public",
+      "rol": ""
+    },
+    {
+      "page": "index",
+      "tier": "public",
+      "rol": ""
+    },
+
+    {
+      "page": "",
+      "tier": "public",
+      "rol": "user"
+    },
+
+    {
+      "page": "index",
+      "tier": "public",
+      "rol": "user"
+    },
+
+    {
+      "page": "signup",
+      "tier": "public",
+      "rol": ""
+    },
+    {
+      "page": "login",
+      "tier": "public",
+      "rol": ""
+    },
+    {
+      "page": "dashboard",
+      "tier": "private",
+      "rol": "user"
+    },
+    {
+      "page": "user",
+      "tier": "private",
+      "rol": "user"
+    },
+    {
+      "page": "registro_producto",
+      "tier": "private",
+      "rol": "admin"
+    },
+    {
+      "page": "eliminar_producto",
+      "tier": "private",
+      "rol": "admin"
+    },
+    {
+      "page": "listar_producto",
+      "tier": "private",
+      "rol": "admin"
+    },
+    {
+      "page": "listar_cliente",
+      "tier": "private",
+      "rol": "admin"
+    },
+    {
+      "page": "tienda",
+      "tier": "public",
+      "rol": ""
+    },
+    {
+      "page": "tienda",
+      "tier": "public",
+      "rol": "user"
+    },
+    {
+      "page": "sistema",
+      "tier": "private",
+      "rol": "admin"
+    }
+  ],
+    "default":
+        {
+            "user": "dashboard",
+            "admin": "sistema"
+        }
+}
